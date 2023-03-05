@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 174, 174);
+}
+#outer{
+    width: 80%;
+    height: 80%;
+    background-color: aqua;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgs{
+    height: inherit;
+    width: 19.5%;
+    border-radius: 5px;
+    object-fit: cover;
+}
